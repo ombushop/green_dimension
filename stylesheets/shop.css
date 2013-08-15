@@ -463,36 +463,39 @@ ul#nav-bar li {
 }
 
 /* === PAGINACION */
-.pagination a.page {
-  border: 1px solid #9aafe5;
-  color: #c1840b;
+.pagination a {
+  color: #395930;
   margin: 0 3px;
-  padding: 0 5px;
+  padding: 3px 8px;
   text-decoration: none;
+  background: #F5F3DF;
+  border-radius: 3px;
+  -webkit-transition: 200ms all;
+  -moz-transition:    200ms all;
+  -ms-transition:     200ms all;
+  -o-transition:      200ms all;
+  transition:         200ms all;
 }
-.pagination span.page {
+.pagination span {
   margin: 0 3px;
   padding: 0 5px;
 }
-.pagination a.page:hover {
-  border: 1px solid #2b66a5;
+.pagination a:hover {
   color: #000;
 }
-.pagination a.page:active {
-  border: 1px solid #2b66a5;
+.pagination a:active {
   color: #000;
 }
 .pagination a.next_page {  font-weight: 700 }
 .pagination span.disabled_page {
-  border: 1px solid #929292;
   color: #929292;
 }
-.pagination span.current_page {
-  background-color: #c1840b;
-  border: 1px solid;
-  border-color: #162f54;
+.pagination span.current {
+  background-color: #395930;
   color: #fff;
   font-weight: 700;
+  border-radius: 3px;
+  padding: 3px 8px;
 }
 
 /* === MUESTRA DE ERRORES */
