@@ -206,11 +206,11 @@
               <h1>Navegación</h1>
               <ul class="links">
                 {% if shop.homepage %}
-    						<li><a href="/products">Productos</a></li>
-    						{% endif %}
-    						{% for page in pages %}
-      					<li {% if page.url contains current_path and current_path != "/" %}class="current-page"{% endif %}><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></li>
-      					{% endfor %}
+                <li><a href="/products">Productos</a></li>
+                {% endif %}
+                {% for page in pages %}
+                <li {% if page.url contains current_path and current_path != "/" %}class="current-page"{% endif %}><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></li>
+                {% endfor %}
               </ul>
             </div>
             <div id="follow-us">
@@ -227,7 +227,7 @@
               </div>
             </div>
             </div>
-            <a href="#" class="rights"><strong>OmbuShop.</strong>Tu plataforma de venta online</a>
+            <a href="#" class="ombu-tagline" title="Ombushop. Tu plataforma de venta online" target="_blank"><strong>OmbuShop.</strong>Tu plataforma de venta online</a>
           </div>
         </div><!-- end "wrapper" -->
       </div><!-- end "page" -->
