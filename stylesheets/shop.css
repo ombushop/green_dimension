@@ -571,11 +571,18 @@ button.primary, a.button.primary, input.button.primary {
   font-weight: 700;
 }
 button.large, a.button.large, input.button.large {
-  -webkit-border-radius: .3em;
-  -moz-border-radius:    .3em;
-  border-radius:         .3em;
-  font-size: 1.4em!important;
-  line-height: 1.4em;
+  -webkit-border-radius: .2em;
+  -moz-border-radius:    .2em;
+  border-radius:         .2em;
+  font-size: 1em!important;
+  line-height: 1.2em;
+  background: none;
+  background-color: #70BAB1;
+  text-shadow: none;
+  border: 0;
+}
+button.large:hover, a.button.large:hover, input.button.large:hover{
+  opacity: 0.8;
 }
 button.small, a.button.small, input.button.small {
   -webkit-border-radius: 4px;
@@ -608,10 +615,10 @@ p a.button img {  margin: 0 5px 0 0 }
 p button img {  margin: 0 5px 0 0 }
 
 /* === PRODUCTOS */
-.prices {  font-weight: 700 }
+.prices {  font-weight: 700;  margin-bottom: 5px; }
 .prices #product-details .prices {  font-size: 1.25em }
 .price.selling {
-  color: #c1840b;
+  color: #70BAB1;
   font-size: 16px;
   font-weight: 700;
 }
@@ -705,7 +712,9 @@ ul.product-listing li.product a.info {
   transition:         all 200ms ease-out;
 }
 ul.product-listing li.productli:hover a.info {  background-color: #fafcc3 }
-
+.payment_images span{
+  color: #000;
+}
 /* === REDES SOCIALES */
 #content.index div.social-container {
   margin-left: 15px;
