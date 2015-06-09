@@ -1,6 +1,6 @@
-# Theme Modern White
+# Theme Green Dimension
 
-Todos los templates del theme Modern White sobre la plataforma Ombu Shop.
+Todos los templates del theme Green Dimension sobre la plataforma Ombu Shop.
 
 Estos templates utilizan la [API para diseñadores](http://www.ombushop.com/liquid-api/index.html)
 
@@ -12,7 +12,7 @@ Para utilizar este template:
 
   1. Ir a http://www.ombushop.com/admin
   2. Diseño > Configuración
-  3. Seleccionar 'Modern White'
+  3. Seleccionar 'Green Dimension'
   4. Presionar 'Guardar'
 
 ## Feedback
