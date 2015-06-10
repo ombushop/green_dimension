@@ -420,8 +420,8 @@ ul.product-listing:before {
   min-height: 105px;
 }
 .product-info .product-price{
-  color: #999;
-  font-weight: 400;
+  color: #3F666B;
+  font-weight: 300;
 }
 .product-listing .product a:hover img {
   opacity:0.8;
